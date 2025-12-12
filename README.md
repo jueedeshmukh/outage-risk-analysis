@@ -17,23 +17,25 @@ To answer this question, I:
 
 The raw dataset includes 1,534 rows and 55 columns. Here are the relevant columns for my analysis:
 
-| Column | Description |
-| 'YEAR' | Year when outage occurred |
-| 'MONTH' | Month when outage occured (1-12) |
-| 'U.S._STATE' | U.S State where outage occurred |
-| 'CLIMATE.REGION' | U.S Climate regions, specified by National Centers for Environmental Information |
-| 'ANOMALY.LEVEL' | The oceanic ONI index referring to the cold and warm episodes of the pacific ocean, by season |
-| 'OUTAGE.START.DATE' | The day of the year when the outage started |
-| 'OUTAGE.START.TIME' | The time of the day when the outage event started |
-| 'OUTAGE.RESTORATION.DATE' | The day of the year when power was restored to all the customers, as reported by the corresponding Utility in the region |
-| 'OUTAGE.RESTORATION.TIME' | The time of the day when power was restored to all the customers, as reported by the corresponding Utility in the region |
-| 'CAUSE.CATEGORY' | Categories of all the events causing all major power outages |
-| 'OUTAGE.DURATION' | Duration of outage events, in minutes |
-| 'DEMAND.LOSS.MW' | Amount of peak demand lost during an outage event, in Megawatts |
-| 'TOTAL.SALES' | Total electricity consumption in the U.S. state |
-| 'UTIL.REALGSP' | Amount of economic output produced by the utility industry, adjusted for inflation |
-| 'POPULATION' | Population of the U.S state in a year |
-| 'POPPCT_URBAN' | Percentage state's population that lives in urban areas (in %) |
+| Column                     | Description                                                                                           |
+|----------------------------|-------------------------------------------------------------------------------------------------------|
+| 'YEAR'                     | Year when outage occurred                                                                             |
+| 'MONTH'                    | Month when outage occurred (1–12)                                                                     |
+| 'U.S._STATE'               | U.S. state where outage occurred                                                                      |
+| 'CLIMATE.REGION'          | U.S. climate regions, defined by the National Centers for Environmental Information                    |
+| 'ANOMALY.LEVEL'           | Oceanic ONI index measuring El Niño/La Niña conditions                                                |
+| 'OUTAGE.START.DATE'       | Date when the outage started                                                                           |
+| 'OUTAGE.START.TIME'       | Time of day when the outage started                                                                   |
+| 'OUTAGE.RESTORATION.DATE' | Date when power was fully restored                                                                    |
+| 'OUTAGE.RESTORATION.TIME' | Time of day when power was fully restored                                                             |
+| 'CAUSE.CATEGORY'          | Category of the event that caused the outage                                                          |
+| 'OUTAGE.DURATION'         | Duration of the outage in minutes                                                                     |
+| 'DEMAND.LOSS.MW'          | Peak demand lost during the outage (in MW)                                                            |
+| 'TOTAL.SALES'             | Total electricity consumption in the state                                                            |
+| 'UTIL.REALGSP'            | Economic output from the utility industry, adjusted for inflation                                     |
+| 'POPULATION'              | State population for that year                                                                         |
+| 'POPPCT_URBAN'            | Percentage of the state's population living in urban areas                                             |
+
 
 
 # Data Cleaning and Exploratory Data Analysis
