@@ -68,6 +68,8 @@ Here are the steps I took throughout my project:
 8. I eventually dropped the columns 'DEMAND.LOSS.MW' and 'CUSTOMERS.AFFECTED', since they had many missing values and won't be relevant for my analysis. 
 
 Here's a preview of my cleaned dataset, with a portion of the columns: 
+
+
 | U.S._STATE   |   YEAR |   ANOMALY.LEVEL |   OUTAGE.DURATION_HOURS | CLIMATE.REGION     |   TOTAL.SALES |
 |:-------------|-------:|----------------:|------------------------:|:-------------------|--------------:|
 | Minnesota    |   2011 |            -0.3 |              51         | East North Central |   6.56252e+06 |
@@ -75,6 +77,7 @@ Here's a preview of my cleaned dataset, with a portion of the columns:
 | Minnesota    |   2010 |            -1.5 |              50         | East North Central |   5.22212e+06 |
 | Minnesota    |   2012 |            -0.1 |              42.5       | East North Central |   5.78706e+06 |
 | Minnesota    |   2015 |             1.2 |              29         | East North Central |   5.97034e+06 |
+
 
 ## Univariate Analysis
 
